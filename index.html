@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ResuTube</title>
+    <link rel="shortcut icon" href="assets/icons/favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/header.css"/>
+    <link rel="stylesheet" href="css/sidebar.css"/>
+    <link rel="stylesheet" href="css/video.css"/>
+    <link rel="stylesheet" href="css/general.css"/>
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="assets/icons/hamburger-menu.svg" alt="" />
+        <img class="youtube-logo" src="assets/icons/youtube-logo.svg" alt="" />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="assets/icons/search.svg" alt="" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img voice-search-icon src="assets/icons/voice-search-icon.svg" alt="" />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="assets/icons/upload.svg" alt="" />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-icon-container">
+          <img class="youtube-apps-icon" src="assets/icons/youtube-apps.svg" alt="" />
+          <div class="tooltip">Apps</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img
+            class="notifications-icon"
+            src="assets/icons/notifications.svg"
+            alt=""
+          />
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Create</div>
+        </div>
+        <img
+          class="current-user-picture"
+          src="assets/channel-pictures/my-channel.jpg"
+          alt=""
+        />
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="assets/icons/home.svg" alt="" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="assets/icons/explore.svg" alt="" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="assets/icons/subscriptions.svg" alt=""/>
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="assets/icons/originals.svg" alt="" />
+        <div>Orginals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="assets/icons/youtube-music.svg" alt=""/>
+        <div>Youtube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="assets/icons/library.svg" alt="" />
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="assets/thumbnails/thumbnail-1.webp"/>
+            <div class="video-time">48:17</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="assets/channel-pictures/channel-1.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                JavaScript Tutorial for Beginners: Learn JavaScript in 1 Hour
+              </p>
+              <p class="video-author">Programming with Mosh</p>
+              <p class="video-stats">12M views &#183; 6 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="assets/thumbnails/thumbnail-2.webp" />
+            <div class="video-time">6:31:24</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="assets/channel-pictures/channel-2.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                HTML & CSS Full Course - Beginner to Pro
+              </p>
+              <p class="video-author">SuperSimpleDev</p>
+              <p class="video-stats">11M views &#183; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="assets/thumbnails/hq720 (3)1.webp" />
+            <div class="video-time">2:06:00</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="assets/channel-pictures/channel-3.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                HTML Tutorial for Beginners | Complete HTML with Notes & Code
+              </p>
+              <p class="video-author">Apna College</p>
+              <p class="video-stats">16M views &#183; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="assets/thumbnails/thumbnail-4.webp" />
+            <div class="video-time">1:13:46</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="assets/channel-pictures/channel-4.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                ASMR Programming - Responsive Admin Dashboard with Light & Dark
+                Mode
+              </p>
+              <p class="video-author">ASMR Programming</p>
+              <p class="video-stats">1.1M views &#183; 1 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="assets/thumbnails/thumbnail-5.webp" />
+            <div class="video-time">7:18:23</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="assets/channel-pictures/channel-5.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                CSS Tutorial for Beginners | Complete CSS with Project, Notes &
+                Code
+              </p>
+              <p class="video-author">Apna College</p>
+              <p class="video-stats">7.8M views &#183; 1 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="assets/thumbnails/thumbnail-6.webp" />
+            <div class="video-time">1:09:34</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="assets/channel-pictures/channel-1.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                HTML Tutorial for Beginners: HTML Crash Course
+              </p>
+              <p class="video-author">Programming with Mosh</p>
+              <p class="video-stats">8.7M views &#183; 3 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="assets/thumbnails/thumbnail-7.jpg" />
+            <div class="video-time">3:48</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="assets/channel-pictures/channel-7.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Google takes its biggest L ever... now a convicted monopolist
+              </p>
+              <p class="video-author">Fireship</p>
+              <p class="video-stats">1.4M views &#183; 13 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="assets/thumbnails/thumbnail-8.jpg" />
+            <div class="video-time">4:02:43</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="assets/channel-pictures/channel-8.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                HTML & CSS Full Course for free 🌎 (2023)
+              </p>
+              <p class="video-author">Bro Code</p>
+              <p class="video-stats">2.4M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="assets/thumbnails/thumbnail-9.jpg" />
+            <div class="video-time">26:48</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="assets/channel-pictures/channel-9.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                How To Create To-Do List App Using HTML CSS And JavaScript |
+                Task App In JavaScript
+              </p>
+              <p class="video-author">GreatStack</p>
+              <p class="video-stats">819K views &#183; 1 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="assets/thumbnails/thumbnail-10.webp" />
+            <div class="video-time">22:15:57</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="assets/channel-pictures/channel-2.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                JavaScript Tutorial Full Course - Beginner to Pro (2024)
+              </p>
+              <p class="video-author">SuperSimpleDev</p>
+              <p class="video-stats">1.4M views &#183; 3 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="assets/thumbnails/thumbnail-11.jpg" />
+            <div class="video-time">18:18</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="assets/channel-pictures/channel-4.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Animated Login Page - No Talking</p>
+              <p class="video-author">ASMR Programming</p>
+              <p class="video-stats">1.5M views &#183; 10 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="assets/thumbnails/thumbnail-12.jpg" />
+            <div class="video-time">11:47:14</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="assets/channel-pictures/channel-3.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                JavaScript Tutorial (2024) for Beginners to Pro (with Notes,
+                Projects & Practice Questions)
+              </p>
+              <p class="video-author">Apna College</p>
+              <p class="video-stats">2.8M views &#183; 7 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="assets/thumbnails/thumbnail-13.jpg" />
+            <div class="video-time">20:31</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="assets/channel-pictures/channel-13.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                JavaScript Mastery A Developer's Manual to ChatGPT
+              </p>
+              <p class="video-author">JavaScriptMastery</p>
+              <p class="video-stats">95K views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="assets/thumbnails/thumbnail-14.jpg" />
+            <div class="video-time">17:13</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="assets/channel-pictures/channel-14.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                How does Computer Hardware Work? 💻🛠🔬 [3D Animated Teardown]
+              </p>
+              <p class="video-author">Branch Education</p>
+              <p class="video-stats">2.5M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="assets/thumbnails/thumbnail-15.jpg" />
+            <div class="video-time">8:25</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="assets/channel-pictures/channel-15.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Using OSINT To Gather Hidden Information | Find Usernames &
+                Emails
+              </p>
+              <p class="video-author">iMentor</p>
+              <p class="video-stats">45K views &#183; 7 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="assets/thumbnails/thumbnail-16.jpg" />
+            <div class="video-time">11:34</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="assets/channel-pictures/channel-16.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                The Fastest train ever built | The complete physics of it
+              </p>
+              <p class="video-author">Lesics</p>
+              <p class="video-stats">50M views &#183; 3 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="assets/thumbnails/thumbnail-17.jpg" />
+            <div class="video-time">3:26:43</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="assets/channel-pictures/channel-17.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Learn JavaScript - Full Course for Beginners
+              </p>
+              <p class="video-author">freeCodeCamp.org</p>
+              <p class="video-stats">17M views &#183; 5 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="assets/thumbnails/thumbnail-18.jpg" />
+            <div class="video-time">11:30:53</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="assets/channel-pictures/channel-17.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Learn HTML5 and CSS3 From Scratch - Full Course
+              </p>
+              <p class="video-author">freeCodeCamp.org</p>
+              <p class="video-stats">5.7M views &#183; 5 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="assets/thumbnails/thumbnail-19.jpg" />
+            <div class="video-time">11:54:00</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="assets/channel-pictures/channel-19.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Modern JavaScript From The Beginning | First 12 Hours
+              </p>
+              <p class="video-author">Traversy Media</p>
+              <p class="video-stats">570K views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
